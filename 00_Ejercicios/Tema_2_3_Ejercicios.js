@@ -7,7 +7,7 @@ let lado;
 let cadena = "  EsTo es Un EJEmplo  ";
 
 
-
+//A
 // Escribir codigo que diga por pantalla si un numero es par o es impar.
 // Un numero es par si al dividirlo por 2 da como resto 0.
 
