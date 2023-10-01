@@ -66,6 +66,8 @@ console.log(typeof(sinInicializar));
 sinInicializar = 200;
 console.log(typeof(sinInicializar));
 
+let suma = 1+1;
+console.log(suma);
 
 
 
