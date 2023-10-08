@@ -45,7 +45,7 @@ console.log("\n===== Ejercicio 3 ========\n");
 
 let numberExercise3 = 4;
 console.log("El número que usamos es: " + numberExercise3);
-if (numberExercise3 % 2) {
+if (numberExercise3 % 2 === 0) {
         console.log(">> Tu número es par");
     } else {
         console.log(">> Tu número es impar");
@@ -71,7 +71,8 @@ if (numberExercise4 >= 0) {
 
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Ejercicio 5
-Escribir un número y que me diga si es positivo o negativo. El 0 se considera positivo. */
+// Dados dos numeros, escribe un codigo que devuelva la diferencia entre el mayor y el menor.
+// Por ejemplo dados el 3 y el 8, debe devolver 5. */
 console.log("\n===== Ejercicio 5 ========\n");
 
 let numberExercise5A = 3;
@@ -205,8 +206,9 @@ function greatOrLesser(firstNumber, secondNumber) {
     } else {
         console.log(`Tu dos números son iguales. ${firstNumber} y ${secondNumber}`);
     }
-    differenceBetween = firstNumber - secondNumber;
-    differenceBetween = differenceBetween.toString();
-    differenceBetween = differenceBetween.replace("-","");
+   let differenceBetween = firstNumber - secondNumber;
+    if(differenceBetween <0){
+        differenceBetween = differenceBetween * -1;
+     }
     console.log("y la diferencia entre ambos es de " + differenceBetween + " números");
 }
